@@ -21,7 +21,7 @@ fn main() {
         }
     };
 
-    let mut sorted_arr: &mut Vec<isize> = &mut vec![1,2,3,4,5,6,7,8,9];
+    let sorted_arr: &mut Vec<isize> = &mut vec![1,2,3,4,5,6,7,8,9];
 
     let arr_len = sorted_arr.len();
 
@@ -31,9 +31,9 @@ fn main() {
     println!("sorted_arr before {:?}\n", sorted_arr);
 
     'main_loop: while lower_bound <= upper_bound  {
-        let mut midpoint = (upper_bound + lower_bound) / 2 as usize;
+        let midpoint = (upper_bound + lower_bound) / 2 as usize;
         
-        let mut val_at_midpoint: isize = sorted_arr[midpoint];
+        let val_at_midpoint: isize = sorted_arr[midpoint];
 
         if to_insert == val_at_midpoint {
             sorted_arr.push(11);
