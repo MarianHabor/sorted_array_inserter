@@ -44,13 +44,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "insert_mid"
-version = "0.1.0"
-dependencies = [
- "scanner-rust",
-]
-
-[[package]]
 name = "proc-macro2"
 version = "1.0.78"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -77,6 +70,13 @@ dependencies = [
  "educe",
  "generic-array",
  "utf8-width",
+]
+
+[[package]]
+name = "sortred_array_inserter"
+version = "0.1.0"
+dependencies = [
+ "scanner-rust",
 ]
 
 [[package]]

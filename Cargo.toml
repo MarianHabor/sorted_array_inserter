@@ -1,5 +1,5 @@
 [package]
-name = "insert_mid"
+name = "sortred_array_inserter"
 version = "0.1.0"
 edition = "2021"
 
